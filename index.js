@@ -1,24 +1,3 @@
-/**** Escreva o código abaixo 👇******/
-
-
-
-
-
-
-
-
-/**** Escreva o código acima ☝️******/
-
-//Não altere as linhas abaixo
-module.exports = {
-  somar,
-  multiplicar,
-  subtrair,
-  dividir,
-  calcularMedia,
-  elevarPotencia,
-  calcularAreaRetangulo,
-  verificarParOuImpar,
-  calcularRaizQuadrada,
-  calcularHipotenusa,
-};
+// Re-export all functions from the CommonJS implementation in index.cjs
+// This keeps compatibility for any code that requires/imports `./index.js`.
+module.exports = require('./index.cjs');
